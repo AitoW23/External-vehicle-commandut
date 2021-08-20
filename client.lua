@@ -72,13 +72,13 @@ RegisterCommand("door", function(source, args, raw)
     local vehLast = GetPlayersLastVehicle()
     local distanceToVeh = GetDistanceBetweenCoords(GetEntityCoords(ped), GetEntityCoords(vehLast), 1)
     
-    if args[1] == "1" then -- Front Left Door
+    if args[1] == "1" then -- Etu Vasen ovi
         door = 0
-    elseif args[1] == "2" then -- Front Right Door
+    elseif args[1] == "2" then -- Etu oikea ovi
         door = 1
-    elseif args[1] == "3" then -- Back Left Door
+    elseif args[1] == "3" then -- Taka Vasen ovi
         door = 2
-    elseif args[1] == "4" then -- Back Right Door
+    elseif args[1] == "4" then -- Taka Oikea Ovi
         door = 3
     else
         door = nil
