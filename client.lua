@@ -26,3 +26,4 @@ RegisterCommand("trunk", function(source, args raw)
        if GetVehicleDoorAngleRatio(vehLast, door) > 0 then
        SetVehicleDoorShut(vehLast, door, false)
         ShowInfo("[Vehicle]~g~Takalaatikko Suljettu.")
+                                                  .
