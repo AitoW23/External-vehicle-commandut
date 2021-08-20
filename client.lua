@@ -82,7 +82,7 @@ RegisterCommand("door", function(source, args, raw)
         door = 3
     else
         door = nil
-        ShowInfo("Käyttö: ~n~~b~/door [door]")
+        ShowInfo("Käyttö: ~n~~b~/door [ovi]")
         ShowInfo("~y~Mahdolliset ovet:")
         ShowInfo("1: Etu Vasen Ovi~n~2: Etu Oikea Ovi")
         ShowInfo("3: Taka Vasen Ovi~n~4: Taka Oikea Ovi")
